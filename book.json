@@ -1,0 +1,33 @@
+{
+    "plugins": [
+        "splitter",
+        "-sharing",
+        "tbfed-pagefooter",
+        "toggle-chapters",
+        "sectionx",
+        "github"
+    ],
+
+    "pluginsConfig": {
+        "sharing": {
+            "weibo": false,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy www.youngqq.cn",
+            "modify_label": "Modified Time:",
+            "modify_format": "YYYY-MM-DD HH:mm"
+        },
+        "github": {
+            "url": "https://github.com/youngqqcn"
+        }
+    }
+}
